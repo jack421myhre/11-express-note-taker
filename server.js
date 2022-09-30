@@ -1,4 +1,5 @@
 const express = require("express");
+const { fstat } = require("fs");
 const path = require("path");
 const { readAndAppend } = require("./helpers/fsUtils");
 
@@ -6,6 +7,7 @@ const uuid = require("./helpers/uuid");
 const PORT = process.env.PORT || 3001;
 const app = express();
 
+// This updates the list of notes on the front end once the user submits a new one.
 const refreshDataOnSave = () => {
     app.get("/api/notes", (req, res) => {
         res.sendFile(path.join(__dirname, "/db/db.json"));
@@ -25,7 +27,7 @@ app.get("/notes", (req, res) =>
     res.sendFile(path.join(__dirname, "/public/notes.html"))
 );
 
-// api post and get
+// API notes POST and GET
 app.get("/api/notes", (req, res) => {
     res.sendFile(path.join(__dirname, "/db/db.json"));
 });
@@ -52,7 +54,6 @@ app.post("/api/notes", (req, res) => {
     }
 });
 
-// Get Everything
 app.get("*", (req, res) =>
     res.sendFile(path.join(__dirname, "/public/index.html"))
 );
