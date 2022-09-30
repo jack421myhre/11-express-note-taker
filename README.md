@@ -18,8 +18,9 @@ This application is currently deployed on Heroku here:
 https://pacific-river-52000.herokuapp.com/
 ## Usage 
 Enter a new note title and note body, then click the save button on the top right side of the navbar to save it. Note: Delete functionality not implemented.
-## Credits
-none
+## Screenshots
+![noteTaker1](https://user-images.githubusercontent.com/73844213/193348678-5d208a0f-e93f-49b1-96c3-d7fd17be5a37.png)
+![noteTaker2](https://user-images.githubusercontent.com/73844213/193348675-44f9f490-a878-4681-bb1f-9353398aaf3d.png)
 ## License
 This repository is Unlicensed and free to use.
 
