@@ -5,7 +5,7 @@ This application serves notes stores on the backend to the front end for the use
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
+* [Screenshots](#screenshots)
 * [License](#license)
 * [Contributing](#contributing)
 * [Tests](#tests)
