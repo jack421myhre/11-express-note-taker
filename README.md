@@ -1,7 +1,7 @@
 # Express.js Note Taker
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 ## Description
-This application serves notes stores on the backend to the front end for the user. It will save and update the current notes list.
+This application serves notes stored on the backend to the front end for the user. It will save and update the current notes list.
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
